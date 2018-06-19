@@ -1,32 +1,52 @@
 <!--pages/index/index.wxml-->
 <view class='container'>
   <view class='header'>
-    <image class='my_avator' src='/images/avator.png' mode='aspectFit'></image>
+    <image class='my_avator' src='{{img.iconAvator}}' mode='aspectFit'></image>
     <text class='usernick'>oneminuter</text>
-    <navigator class='search' url="" >
-      <image src='/images/search.png' mode='aspectFit'></image>
-    </navigator>
+    <image class='search' src='{{img.iconSearch}}' mode='aspectFit'></image>
   </view>
 
-  <view class='card_item'>
-    <image class='card_bg' src="/images/bg.png" mode='aspectFit'></image>
+  <!-- card_item start -->
+  <view class='card_item' style='background-image:url({{img.indexCardBg}});'>
     <view class='card_head'>
       <view class='userinfo'>
-        <image class='avator' src="/images/avator.png" mode='aspectFit'></image>
+        <image class='avator' src="{{img.iconAvator}}" mode='aspectFit'></image>
         <text class='usernick'>智障实验室</text>
         <text class='desc'>6.1万关注 / 微博 / 电影</text>
       </view>
-      <image class='collect' src='/images/collect.png' mode='aspectFit'></image>
+      <image class='collect' src='{{img.iconCollect}}' mode='aspectFit'></image>
     </view>
-    
+
     <text class='title'>#oner百雀羚为你代言#</text>
     <text class='context'>感谢参与这次互动，我们为准备了啊大叔打开撒娇的了十多年的我都拉速度就大的阿斗啊大</text>
 
     <view class='card_bottom'>
-      <image class='share' src='/images/share.png' mode='aspectFit'></image>
-      <image class='goto_detail' src='/images/detail.png' mode='aspectFit'></image>
-      <image class='thumbs_up' src='/images/thumb_up.png' mode='aspectFit'></image>
+      <image class='share' src='{{img.iconShare}}' mode='aspectFit'></image>
+      <image class='goto_detail' src='{{img.iconDetail}}' mode='aspectFit'></image>
+      <image class='thumbs_up' src='{{img.iconThumbUp}}' mode='aspectFit'></image>
     </view>
   </view>
+  <!-- card_item end -->
+  <!-- card_item start -->
+  <view class='card_item' style='background-image:url({{img.indexCardBg}});'>
+    <view class='card_head'>
+      <view class='userinfo'>
+        <image class='avator' src="{{img.iconAvator}}" mode='aspectFit'></image>
+        <text class='usernick'>智障实验室</text>
+        <text class='desc'>6.1万关注 / 微博 / 电影</text>
+      </view>
+      <image class='collect' src='{{img.iconCollect}}' mode='aspectFit'></image>
+    </view>
+
+    <text class='title'>#oner百雀羚为你代言#</text>
+    <text class='context'>感谢参与这次互动，我们为准备了啊大叔打开撒娇的了十多年的我都拉速度就大的阿斗啊大</text>
+
+    <view class='card_bottom'>
+      <image class='share' src='{{img.iconShare}}' mode='aspectFit'></image>
+      <image class='goto_detail' src='{{img.iconDetail}}' mode='aspectFit'></image>
+      <image class='thumbs_up' src='{{img.iconThumbUp}}' mode='aspectFit'></image>
+    </view>
+  </view>
+  <!-- card_item end -->
 
 </view>
