@@ -35,9 +35,7 @@ export class Util {
      console.error(e)
    }
   }
-
   
-
 }
 
 // module.exports = {

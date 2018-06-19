@@ -1,1 +1,26 @@
 /* pages/index/index.wxss */
+.container{
+  padding: 0rpx 32rpx;
+}
+.header{}
+.my_avator{}
+header .usernick{}
+.search{}
+.search image{}
+
+.card_item{}
+.card_bg{}
+.card_head{}
+.userinfo{}
+.avator{}
+.userinfo .usernick{}
+.userinfo .desc{}
+.collect{}
+
+.title{}
+.context{}
+
+.card_bottom{}
+.share{}
+.goto_detail{}
+.thumbs_up{}
