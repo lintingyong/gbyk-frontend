@@ -1,0 +1,49 @@
+/* pages/search/search.wxss */
+.container{
+  width: 100%;
+  padding: 30rpx 35rpx;
+}
+.search{
+  width: 100%;
+  display: table;
+  border:1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4rpx;
+  padding: 0rpx 10rpx;
+}
+.search image{
+  width: 50rpx;
+  height: 80rpx;
+  display: block;
+  float: left;
+  /* border-radius: 50%; */
+  /* overflow: hidden; */
+}
+.search input{
+  display: block;
+  margin-left: 60rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+   /* outline: 1rpx solid;  */
+}
+.guide{
+  width: 100%;
+  display: table;
+  margin-top: 60rpx;
+}
+.guide_item{
+  width: 50%;
+  display: inline-block;
+  margin-bottom: 40rpx;
+}
+.guide_item image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.guide_item text{
+  color: #515151;
+  font-size: 32rpx;
+  padding-left: 20rpx;
+}

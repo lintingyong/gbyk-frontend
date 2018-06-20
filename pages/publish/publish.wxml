@@ -1,0 +1,26 @@
+<!--pages/publish/publish.wxml-->
+<form bindsubmit="submit">
+  <view class='header'>
+    <button class='cancel_btn' bind:tap="cancel">取消</button>
+    <button class='submit_btn' form-type='submit'>发布</button>
+  </view>
+
+  <view class='input_container'>
+    <input type='text' placeholder='请输入活动话题或联动主题（15字内）'></input>
+    <input type='text' placeholder='请用一句话描述你的活动多么牛皮！（35字内）'></input>
+    <input type='text' placeholder='填写排版好的活动介绍的公众号链接（URL）'></input>
+
+    <view class='chose_container'>
+      <view class='chose_cover' style='background-image:url({{img.indexCardBg}})' bind:tap="choseCoverImg">
+        <text class='asked_title'>点击上传封面图片</text>
+        <text class='asked_size'>尺寸675 * 810</text>
+        <text class='asked_desc'>要求：高清 / 品牌调性 \n 图片质量影响曝光注意力</text>
+      </view>
+      <view class='chose_qrcode' style='background-image:url({{img.indexCardBg}})' bind:tap="choseQRcode">
+        <text class='asked_title'>点击上传你的微信二维码</text>
+        <text class='asked_size'>尺寸675 * 675</text>
+        <text class='asked_desc'>要求：高清 / 可识别 \n 二维码方便KOL直接添加</text>
+      </view>
+    </view>
+  </view>
+</form>

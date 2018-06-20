@@ -1,0 +1,26 @@
+<!--pages/search/search.wxml-->
+<view class='container'>
+  <view class='search'>
+    <image src="{{img.iconSearch}}" mode='aspectFit'></image>
+    <input type="text" placeholder='搜索' confirm-type="搜索"></input>
+  </view>
+
+  <view class='guide'>
+    <view class='guide_item'>
+      <image src="{{img.iconAvator}}"></image>
+      <text>发布活动</text>
+    </view>
+    <view class='guide_item'>
+      <image src="{{img.iconAvator}}"></image>
+      <text>我的消息</text>
+    </view>
+    <view class='guide_item'>
+      <image src="{{img.iconAvator}}"></image>
+      <text>个人中心</text>
+    </view>
+    <view class='guide_item'>
+      <image src="{{img.iconAvator}}"></image>
+      <text>热点星球</text>
+    </view>
+  </view>
+</view>

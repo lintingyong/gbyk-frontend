@@ -1,0 +1,5 @@
+<!--pages/list/list.wxml-->
+<navigator url='/pages/auth/auth'>认证</navigator>
+<navigator url='/pages/index/index'>首页</navigator>
+<navigator url='/pages/search/search'>搜索</navigator>
+<navigator url='/pages/publish/publish'>发布</navigator>

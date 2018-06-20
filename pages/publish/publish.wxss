@@ -1,0 +1,88 @@
+/* pages/publish/publish.wxss */
+form{
+  width: 100%;
+  display: table;
+  padding-bottom: 80rpx;
+}
+.header {
+  padding: 40rpx 20rpx;
+  width: 100%;
+  display: table;
+  border-bottom: 1rpx solid #eee;
+}
+
+.cancel_btn, .submit_btn {
+  display: table;
+  padding: 5rpx 10rpx;
+  line-height: 46rpx;
+  /* border: 1rpx solid #979797; */
+  font-size: 32rpx;
+}
+
+.cancel_btn {
+  float: left;
+  color: #515151;
+}
+
+.submit_btn {
+  float: right;
+  color: #ff7416;
+}
+
+.input_container {
+  width: 100%;
+  display: table;
+}
+
+.input_container input {
+  display: block;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #eee;
+  padding: 0px 20rpx;
+}
+.chose_container{
+  width: 100%;
+  padding: 0px 20rpx;
+}
+.chose_cover,
+.chose_qrcode {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 54rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-content: center;
+  padding: 50rpx 0px;
+}
+.chose_cover{
+  height: 400rpx;
+}
+
+.chose_qrcode {
+  height: 300rpx;
+}
+.asked_title,
+.asked_size,
+.asked_desc{
+  color:#fff;
+  text-align: center;
+  display: block;
+}
+
+.asked_title{
+  font-size: 52rpx;
+}
+.asked_size{
+  font-size: 52rpx;
+}
+.asked_desc{
+  font-size: 32rpx;
+}
